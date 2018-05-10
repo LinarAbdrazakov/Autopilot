@@ -1,0 +1,52 @@
+{
+    "One Way": {
+        "alpha": 2234.8175763736576,
+        "color": [
+            0,
+            255,
+            0
+        ],
+        "dir": "Cascades/one_way.xml",
+        "l0": -7.94326744058365
+    },
+    "Give Way": {
+        "alpha": 2234.8175763736576,
+        "color": [
+            0,
+            255,
+            255
+        ],
+        "dir": "Cascades/give_way.xml",
+        "l0": -7.94326744058365
+    },
+    "Main Road": {
+        "alpha": 2234.8175763736576,
+        "color": [
+            0,
+            255,
+            255
+        ],
+        "dir": "Cascades/the_main_road.xml",
+        "l0": -7.94326744058365
+    },
+    "Stop": {
+        "alpha": 2234.8175763736576,
+        "color": [
+            0,
+            255,
+            255
+        ],
+        "dir": "Cascades/stop_sign.xml",
+        "l0": -7.94326744058365
+    },
+    "No Entry": {
+        "alpha": 2234.8175763736576,
+        "color": [
+            0,
+            0,
+            255
+        ],
+        "dir": "Cascades/no_entry.xml",
+        "l0": -7.94326744058365
+    }
+}
