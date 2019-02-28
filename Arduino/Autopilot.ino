@@ -6,18 +6,8 @@
 Servo servo;
 
 int strToInt(char s){
-  int i = -1;
-  if(s == '0'){ i = 0; }
-  else if(s == '1'){ i = 1; }
-  else if(s == '2'){ i = 2; }
-  else if(s == '3'){ i = 3; }
-  else if(s == '4'){ i = 4; }
-  else if(s == '5'){ i = 5; }
-  else if(s == '6'){ i = 6; }
-  else if(s == '7'){ i = 7; }
-  else if(s == '8'){ i = 8; }
-  else if(s == '9'){ i = 9; }
-  return i;
+  if ('0' <= s <= '9') return s - '0';
+  return -1;
 }
 
 int get_new_pos(){
